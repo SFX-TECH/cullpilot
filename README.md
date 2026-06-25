@@ -8,7 +8,7 @@
 ![Privacy](https://img.shields.io/badge/privacy-100%25%20local-2ea44f)
 ![License](https://img.shields.io/badge/license-proprietary-8a8a8a)
 
-**Source is private by design** — this repo is a public showcase of the product and its architecture.
+**Source is private by design**: this repo is a public showcase of the product and its architecture.
 
 <!-- drop a screenshot of the keeper/reject grid here: assets/hero.png -->
 
@@ -19,7 +19,7 @@ Culling a wedding or event shoot is a 3-6 hour chore: thousands of near-identica
 
 ## What it does
 Point CullPilot at a folder of 1,000-8,000 RAW/JPEG photos. On your own GPU it:
-- **Scores every shot** — sharpness, eyes open/closed, expression, exposure.
+- **Scores every shot**: sharpness, eyes open/closed, expression, exposure.
 - **Groups burst duplicates** so you compare like with like.
 - **Ranks keepers vs rejects**, with explainable "why this rank" chips so you can trust it.
 - Turns a 3-6 hour cull into a ~30-minute review. 100% local. Pay once, not a subscription.
@@ -41,7 +41,7 @@ flowchart LR
 | Layer | Stack |
 |---|---|
 | UI | Electron + React + TypeScript |
-| Engine | Python sidecar — RAW decode + GPU computer-vision scoring models |
+| Engine | Python sidecar, RAW decode + GPU computer-vision scoring models |
 | Runtime | 100% local, GPU-accelerated with CPU fallback. No cloud, no uploads. |
 
 ## Status
